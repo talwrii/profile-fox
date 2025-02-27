@@ -7,7 +7,7 @@ setuptools.setup(
     author='readwithai',
     long_description_content_type='text/markdown',
     author_email='talwrii@gmail.com',
-    description='',
+    description='Open things in a particular firefox profile from the command line',
     license='MIT',
     keywords='firefox,tabs,profile',
     url='',

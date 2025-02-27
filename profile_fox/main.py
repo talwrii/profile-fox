@@ -93,7 +93,7 @@ def main():
                 print(stream.read())
 
         subprocess.Popen(["firefox"] + rest)
-        time.sleep(0.3)
+        time.sleep(1.0)
     finally:
         if previous_default is not None:
             config.set(run_section, "Default", str(previous_default))
