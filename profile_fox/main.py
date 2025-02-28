@@ -21,9 +21,19 @@ PROFILES_PATHS = [
     os.path.expanduser("~/.mozilla/firefox/profiles.ini")
 ]
 
-
-
+CONFIG_FILE = os.path.expanduser("~/profile-fix")
 def main():
+    if args.set_profiles:
+        with open(CONFIG_FILE, "w") as stream:
+            stream.write(args.set_profiles)
+        return
+
+
+    if os.path.exists(CONFIG_FILE):
+        with open(CONFIG_FILE) as stream:
+            profiles_path = stream.read().strip()
+            print(profiles_path)
+
     profiles_path, *_ = [x for x in PROFILES_PATHS if os.path.exists(x)]
 
     if args.profiles_file:
