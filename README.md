@@ -1,6 +1,6 @@
 # Profile fox
 
-*@readwithai - [X](https://x.com/readwithai) - [Blog](https;//readwithai.substack.com)*
+*@readwithai - [X](https://x.com/readwithai) - [Blog](https;//readwithai.substack.com)* - [pypi package] https://pypi.org/project/profile-fox
 
 Open tabs in certain firefox profiles from the command line.
 
