@@ -10,7 +10,7 @@ setuptools.setup(
     description='Open things in a particular firefox profile from the command line',
     license='MIT',
     keywords='firefox,tabs,profile',
-    url='',
+    url='https://github.com/talwrii/profile-fox',
     packages=["profile_fox"],
     long_description=open('README.md').read(),
     entry_points={
