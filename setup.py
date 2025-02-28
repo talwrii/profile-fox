@@ -3,7 +3,7 @@ import distutils.core
 
 setuptools.setup(
     name='profile-fox',
-    version="1.0.2",
+    version="1.0.3",
     author='readwithai',
     long_description_content_type='text/markdown',
     author_email='talwrii@gmail.com',
