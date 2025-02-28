@@ -1,4 +1,7 @@
 # Profile fox
+
+*@readwithai - [X](https://x.com/readwithai) - [Blog](https;//readwithai.substack.com)*
+
 Open tabs in certain firefox profiles from the command line.
 
 # Installation
